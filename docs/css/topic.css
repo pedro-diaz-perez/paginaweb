@@ -1,0 +1,127 @@
+@import "index.css";
+
+header h1 {
+  color: #ff7a59;
+}
+
+.hero-boat {
+  background: url("../images/fondoinicial.jpg") center/cover no-repeat;
+  padding: 3.5rem 0;
+  color: #07212a;
+}
+.hero-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.85),
+    rgba(255, 255, 255, 0.72)
+  );
+  border-radius: 12px;
+  padding: 2rem;
+}
+.hero-inner h2 {
+  margin: 0 0 0.6rem;
+  color: #033f4b;
+  font-size: 1.6rem;
+}
+.lead {
+  color: #234;
+  opacity: 0.95;
+  margin-bottom: 1rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.btn--cta {
+  background: #006d9c;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+.btn--ghost {
+  background: transparent;
+  border: 1px solid rgba(3, 126, 164, 0.18);
+  color: #033f4b;
+}
+
+.what {
+  padding: 2rem 0;
+}
+.what .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.feature {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(15, 23, 42, 0.03);
+}
+.feature h4 {
+  margin: 0 0 0.5rem;
+  color: var(--primary);
+}
+
+.gallery {
+  padding: 2rem 0;
+  background: linear-gradient(180deg, #fbfdff, #f7fbff);
+}
+.gallery .wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.grid figure {
+  margin: 0;
+  background: var(--card);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(15, 23, 42, 0.03);
+}
+.grid img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+.grid figcaption {
+  padding: 0.6rem 0.75rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.tips {
+  padding: 2rem 0;
+}
+.tips .wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.tips ul {
+  padding-left: 1.25rem;
+  color: var(--text);
+}
+.tips li {
+  margin: 0.6rem 0;
+}

@@ -1,0 +1,125 @@
+@import "index.css";
+
+:root {
+  --accent: #0b5ed7;
+  --muted: #6b7280;
+  --card-bg: #ffffff;
+  --glass: rgba(255, 255, 255, 0.6);
+}
+
+/* Página "Sobre" - tarjeta de estudiante y hero */
+.fi-hero,
+header {
+  background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 60%);
+}
+
+header h1 {
+  color: var(--accent);
+  margin: 0;
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 18px;
+}
+
+.student-card {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 32px;
+  align-items: center;
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.06);
+  margin: 28px auto;
+  max-width: 920px;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(16, 24, 40, 0.08);
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e6f0ff, #ffffff);
+  border: 3px solid rgba(11, 94, 215, 0.08);
+  flex-shrink: 0;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.avatar svg {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+
+.student-info h2 {
+  margin: 0 0 6px;
+  font-size: 1.15rem;
+}
+.student-info p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.student-info ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+.student-info ul li {
+  margin: 6px 0;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+.tag {
+  font-size: 0.82rem;
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 94, 215, 0.08),
+    rgba(0, 0, 0, 0.02)
+  );
+  color: var(--accent);
+}
+
+/* Estilo para el botón del portfolio */
+.portfolio-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: var(--accent);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(11, 94, 215, 0.2);
+}
+
+.portfolio-btn:hover {
+  background-color: #0842a0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(11, 94, 215, 0.3);
+}
