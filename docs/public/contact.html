@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contacto</h1>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link">Inicio</a></li>
+          <li><a href="about.html" class="nav-link">Sobre</a></li>
+          <li><a href="contact.html" class="nav-link active">Contacto</a></li>
+          <li><a href="net.html" class="nav-link">Red</a></li>
+          <li><a href="degree.html" class="nav-link">Grado</a></li>
+          <li><a href="topic.html" class="nav-link">Tema</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-container">
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <label for="name">Nombre</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              required
+              placeholder="Tu nombre"
+            />
+          </div>
 
+          <div class="form-row">
+            <label for="email">Correo electrónico</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              placeholder="tú@ejemplo.com"
+            />
+          </div>
+
+          <div class="form-row">
+            <label for="subject">Asunto</label>
+            <input
+              id="subject"
+              name="subject"
+              type="text"
+              placeholder="Asunto (opcional)"
+            />
+          </div>
+
+          <div class="form-row">
+            <label for="preferredDate">Fecha y hora preferida</label>
+            <input
+              id="preferredDate"
+              name="preferredDate"
+              type="datetime-local"
+            />
+            <small class="muted"
+              >Selecciona fecha y hora si quieres que te contactemos en un
+              momento concreto.</small
+            >
+            <div id="datePreview" class="date-preview" aria-live="polite"></div>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Mensaje</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              required
+              placeholder="Escribe tu mensaje aquí..."
+            ></textarea>
+          </div>
+
+          <div class="form-row form-actions">
+            <button type="submit" class="btn">Enviar</button>
+            <button type="reset" class="btn btn--muted">Limpiar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

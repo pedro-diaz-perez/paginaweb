@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Red</title>
+    <link rel="stylesheet" href="../css/net.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tema: Red</h1>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link">Inicio</a></li>
+          <li><a href="about.html" class="nav-link">Sobre</a></li>
+          <li><a href="contact.html" class="nav-link">Contacto</a></li>
+          <li><a href="net.html" class="nav-link active">Red</a></li>
+          <li><a href="degree.html" class="nav-link">Grado</a></li>
+          <li><a href="topic.html" class="nav-link">Tema</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="content-container">
+        <!--Link que abre en esta página-->
+        <article class="card">
+          <a href="https://www.marca.com/" class="card-link">
+            <div class="card-content">
+              <h3>Página 1</h3>
+              <p>Página realizada por:</p>
+              <span class="card-cta">Abrir en <u>esta</u> pestaña →</span>
+            </div>
+          </a>
+        </article>
 
+        <!--Link que abre en nueva pestaña-->
+        <article class="card">
+          <a
+            href="https://www.wikipedia.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="card-link"
+          >
+            <div class="card-content">
+              <h3>Página 2</h3>
+              <p>Página realizada por:</p>
+              <span class="card-cta">Abrir en nueva pestaña ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <!--Ventana flotante-->
+        <article class="card">
+          <button
+            class="card-link"
+            onclick="window.open('https://www.google.com/search?q=seguridad+en+redes', 'Seguridad', 'width=900,height=700,left=100,top=100')"
+          >
+            <div class="card-content">
+              <h3>Página 3</h3>
+              <p>Página realizada por:</p>
+              <span class="card-cta">Abrir en una ventana nueva</span>
+            </div>
+          </button>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
