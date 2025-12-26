@@ -5,7 +5,7 @@ Proyecto realizado para la asignatura de **Ingeniería Informática**.
 ## Tecnologías utilizadas 🛠️
 
 - **HTML5**
-- **CSS3**
+- **CSS3:** Apoyado con la IA para perfeccionarlos
 
 ## Páginas principales 📄
 
@@ -17,8 +17,17 @@ Proyecto realizado para la asignatura de **Ingeniería Informática**.
 - **Red** (`net.html`): Una sección de red que proporcionará información (nombre y enlace) sobre las páginas de los compañeros, estableciendo enlaces a sus respectivos sitios web.
 - **Tema** (`topic.html`): Una sección temática que ofrecerá información completa sobre un tema elegido, ya sea relacionado con el trabajo práctico o con un tema de interés personal.
 
+## Problemas principales ⁉️
+
+En mi caso no he encontrado ningún tipo de problema dado a las habilidades adquiridas en mi grado.
+
+## Conclusiones ✅
+
+Buen trabajo para refrescar la materia.
+
 ## Cómo ver el sitio 🌐
 
 Visita el sitio en línea aquí: https://pedro-diaz-perez.github.io/paginaweb/
 
 ¡Disfruta navegando!
+
