@@ -6,8 +6,6 @@
   --card-bg: #ffffff;
   --glass: rgba(255, 255, 255, 0.6);
 }
-
-/* Página "Sobre" - tarjeta de estudiante y hero */
 .fi-hero,
 header {
   background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 60%);
@@ -104,7 +102,6 @@ header h1 {
   color: var(--accent);
 }
 
-/* Estilo para el botón del portfolio */
 .portfolio-btn {
   display: inline-block;
   margin-top: 20px;
@@ -122,4 +119,26 @@ header h1 {
   background-color: #0842a0;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(11, 94, 215, 0.3);
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  color: var(--accent);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.social-links a:hover {
+  background-color: var(--accent);
+  color: white;
+  transform: translateY(-1px);
 }
