@@ -16,6 +16,7 @@ Proyecto realizado para la asignatura de **Ingeniería Informática**.
 - **Fundamentos (FI)** (`fi.html`): Una exploración en profundidad del contenido, objetivos y resultados de aprendizaje de la asignatura.
 - **Red** (`net.html`): Una sección de red que proporcionará información (nombre y enlace) sobre las páginas de los compañeros, estableciendo enlaces a sus respectivos sitios web.
 - **Tema** (`topic.html`): Una sección temática que ofrecerá información completa sobre un tema elegido, ya sea relacionado con el trabajo práctico o con un tema de interés personal.
+  Todo el contenido de la UFV ha sido sacado de la web de esta. 
 
 ## Problemas principales ⁉️
 
@@ -30,4 +31,5 @@ Buen trabajo para refrescar la materia.
 Visita el sitio en línea aquí: https://pedro-diaz-perez.github.io/paginaweb/
 
 ¡Disfruta navegando!
+
 
